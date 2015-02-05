@@ -19,16 +19,16 @@ Functions include:
 <a name="Installation"> 
 # Installation
 1. Clone, Fork or download the .zip of the master source code
-  * To download, you can copy/paste this into a PowerShell console, and it will download the module into your ~\Downloads directory.
+  * To download, you can copy/paste this into a PowerShell console, and it will download the module into your ``Downloads`` directory.
   ```powershell
-(New-Object System.Net.WebClient).DownloadFile("https://github.com/vScripter/ProcessIsolation/archive/master.zip","$ENV:USERPROFILE\Downloads\ProcessIsolation.zip")
+(New-Object System.Net.WebClient).DownloadFile("https://github.com/vScripter/WorkLogModule/archive/master.zip","$ENV:USERPROFILE\Downloads\WorkLog.zip")
 ```
 
 2. If you download the source:
   * Un-Block the .zip before un-zipping
   * Un-zip the source code
 
-3. Move the 'ProcessIsolation' directory into a valid PSModulePath directory
+3. Move the 'WorkLog' directory into a valid PSModulePath directory
   * You can run the following, in PowerShell, to list valid directories:
   ```powershell
   ($ENV:PSModulePath).split(';')
