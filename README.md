@@ -37,7 +37,7 @@ Functions include:
 3. Move the 'WorkLog' directory into a valid PSModulePath directory
   * You can run the following, in PowerShell, to list valid directories:
   ```powershell
-  ($ENV:PSModulePath).split(';')
+  $ENV:PSModulePath -split ';'
   ```
   * Open PowerShell and run:
   ```powershell
