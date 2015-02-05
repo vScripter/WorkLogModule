@@ -9,6 +9,8 @@
 
 <a name="About">
 # About
+[***Back to top***](#Title)
+
 Module that contains functions that allow you to manage working with 'Work Log' markdown files
 
 I created this module to quickly give me the ability to do basic file management for the markdown files I use for daily Work Logs, including getting the status/patch of the current Work Log file, creating a new Work Log file and adding new entries to the current Work Log file.
@@ -20,6 +22,8 @@ Functions include:
 
 <a name="Installation"> 
 # Installation
+[***Back to top***](#Title)
+
 1. Clone, Fork or download the .zip of the master source code
   * To download, you can copy/paste this into a PowerShell console, and it will download the module into your ``Downloads`` directory.
   ```powershell
