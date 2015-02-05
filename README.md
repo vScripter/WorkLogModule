@@ -6,6 +6,7 @@
 |-----------------|
 |[About](#About)|
 |[Installation](#Installation)|
+|[Examples](#Examples)|
 
 <a name="About">
 # About
@@ -44,3 +45,34 @@ Functions include:
   Import-Module WorkLog
   ```
   * Note: You may need to adjust your ExecutionPolicy
+ 
+4. Make sure you update the $Path variables in each function. The default path location is:
+  * ``$ENV:USERPROFILE\Documents\GitHub\WorkLog``
+
+<a name="Examples"> 
+# Examples
+[***Back to top***](#Title)
+### ``New-WorkLog``
+  * ``New-WorkLog -Verbose``
+  * ``New-WorkLog -Path $WorkFileWorkingDirectory -Verbose``
+  
+### ``Add-WorkLog``
+```
+Add-WorkLog 'This message will get added to the current Work Log file. If one does not exist, the file will be created'
+```
+
+You can use the ``-Indent`` parameter to support a hierarchy within your Work Log files
+```
+Add-WorkLog 'This message will indent one level, and appear as a bullet under the previous post' -Indent 1
+```
+
+Note: When using ``-Indent``, you may need to use ``Get-WorkLog`` if you don't remember what the current nesting level is.
+ 
+### ``Get-WorkLog``
+```
+Get-WorkLog
+```
+
+This function uses ``Get-Content`` to display what the current Work Log file contents are, within the PowerShell console
+  
+  
