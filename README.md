@@ -41,6 +41,6 @@ Functions include:
   ```
   * Open PowerShell and run:
   ```powershell
-  Import-Module ProcessIsolation
+  Import-Module WorkLog
   ```
   * Note: You may need to adjust your ExecutionPolicy
