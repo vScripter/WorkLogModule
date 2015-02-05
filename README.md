@@ -52,11 +52,11 @@ Functions include:
 <a name="Examples"> 
 # Examples
 [***Back to top***](#Title)
-### ``New-WorkLog``
+### New-WorkLog
   * ``New-WorkLog -Verbose``
   * ``New-WorkLog -Path $WorkFileWorkingDirectory -Verbose``
   
-### ``Add-WorkLog``
+### Add-WorkLog
 ```
 Add-WorkLog 'This message will get added to the current Work Log file. If one does not exist, the file will be created'
 ```
@@ -68,7 +68,7 @@ Add-WorkLog 'This message will indent one level, and appear as a bullet under th
 
 Note: When using ``-Indent``, you may need to use ``Get-WorkLog`` if you don't remember what the current nesting level is.
  
-### ``Get-WorkLog``
+### Get-WorkLog
 ```
 Get-WorkLog
 ```
