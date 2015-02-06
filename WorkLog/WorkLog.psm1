@@ -13,7 +13,7 @@ function New-WorkLog {
 	.EXAMPLE
 		New-WorkLog
 	.NOTES
-		20150105	K. Kirkpatrick
+		20150205	K. Kirkpatrick
 		[+] Created
 	#>
 
@@ -112,7 +112,7 @@ function Add-WorkLog {
 	* Created 'WorkLog' PowerShell Module
 		* Made changed to support indentation
 	.NOTES
-		20150105	K. Kirkpatrick
+		20150205	K. Kirkpatrick
 			[+] Created
 	#>
 
