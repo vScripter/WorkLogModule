@@ -186,7 +186,7 @@ function Add-WorkLog {
 
 		} elseif (-not (Test-Path -LiteralPath $filePath)) {
 
-			Write-Warning -Message 'Work log not created'
+			Write-Warning -Message 'Work log not created. Attempting to create file'
 			try {
 
 				Write-Verbose -Message 'Creating worklog file'
