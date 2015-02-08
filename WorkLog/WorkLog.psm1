@@ -66,7 +66,7 @@ function New-WorkLog {
 			} # end try/catch
 		} else {
 
-			Write-Warning -Message 'Worklog for today had already been created'
+			Write-Warning -Message 'Worklog for today has already been created'
 
 		} # end if/else
 
@@ -105,12 +105,12 @@ function Add-WorkLog {
 	.EXAMPLE
 		Add-WorkLog "Created 'WorkLog' PowerShell Module"
 	.EXAMPLE
-		Add-WorkLog 'Made changed to support indentation' -Indent 1
+		Add-WorkLog 'Made changes to support indentation' -Indent 1
 
 		The result of this would be a sub-bullet of the output generated in the first example:
 
 	* Created 'WorkLog' PowerShell Module
-		* Made changed to support indentation
+		* Made changes to support indentation
 	.NOTES
 		20150205	K. Kirkpatrick
 			[+] Created
